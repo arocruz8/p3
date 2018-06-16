@@ -1,5 +1,5 @@
-
 package interfaz;
+
 
 import java.awt.FlowLayout;
 import java.awt.Font;
@@ -12,11 +12,11 @@ import javax.swing.JPanel;
  *
  * @author Luis
  */
-public class EventosBarraMenú implements MouseListener{
+public class EventsStatusBar implements MouseListener{
     private JPanel statusBar;
     private JLabel info=new JLabel("Listo");
     
-    public EventosBarraMenú(JPanel statusbar){
+    public EventsStatusBar(JPanel statusbar){
         statusbar.setLayout(new FlowLayout(FlowLayout.LEFT));
         this.statusBar=statusbar;
         this.info.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 9));
