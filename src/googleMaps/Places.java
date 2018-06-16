@@ -342,8 +342,7 @@ public class Places extends MapsJava {
                          document, XPathConstants.NODESET);
             this.photosReference=this.getNodesPhoto(nodePhoto);
             
-            return result;
-            
+            return result;   
         } catch (Exception e) {
             onError(url,"NO STATUS",e);
             return null;
