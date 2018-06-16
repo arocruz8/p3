@@ -8,10 +8,6 @@ import java.awt.event.MouseListener;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-/**
- *
- * @author Luis
- */
 public class EventsStatusBar implements MouseListener{
     private JPanel statusBar;
     private JLabel info=new JLabel("Listo");
